@@ -124,4 +124,10 @@ When you have finished the assignment, create a github repository and send us th
 
   
 
+  ## future ideas & improvement
+  1- convert the project from javascript to typescript 
+  2- add eslint to formate on save and follow the language Rules
+  3- restructure the folders and the files to be in modules 
+  4- add unit test and integration test 
+   
 Thank you and good luck! 🙏
