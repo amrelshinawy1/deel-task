@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "67b6f248-db9a-4810-9c24-28c6ea4b8d25",
+		"name": "task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2390725"
+	},
+	"item": [
+		{
+			"name": "get contract",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/contracts/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"contracts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contracts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "5",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/contracts",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"contracts"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unpaid jobs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/jobs/unpaid",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"jobs",
+						"unpaid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pay job",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/jobs/4/pay",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"jobs",
+						"4",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "best contractor",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/admin/best-profession?start=1/1/2020&end=1/1/2022",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"admin",
+						"best-profession"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1/1/2020"
+						},
+						{
+							"key": "end",
+							"value": "1/1/2022"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "best contractor Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "profile_id",
+						"value": "7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3001/admin/best-clients?start=1/1/2020&end=1/1/2022",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"admin",
+						"best-clients"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1/1/2020"
+						},
+						{
+							"key": "end",
+							"value": "1/1/2022"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
