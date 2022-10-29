@@ -108,7 +108,8 @@ Below is a list of the required API's for the application.
 ```
 
   
-
+# implimented APIs 
+you can import the task.postman_collection.json to test the apis from postman and see the actual result 
 ## Going Above and Beyond the Requirements
 
 Given the time expectations of this exercise, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
