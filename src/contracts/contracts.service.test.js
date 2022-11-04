@@ -4,7 +4,6 @@ const app = require('../app');
 describe('test contract service', () => {
   test('should get contract by id', async () => {
     const contract = await getContractById({ app, profile: { id: 5 } }, 1);
-    console.log(contract);
     expect(contract).toMatchObject({
       ClientId: 1, Contractor: {
         balance: 64, firstName: 'John', id: 5, lastName: 'Lenon', profession: 'Musician', type: 'contractor'
